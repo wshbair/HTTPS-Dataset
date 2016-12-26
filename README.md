@@ -3,8 +3,6 @@ The scan was made daily based using Goolge Chrome and Mozilla Firefox Web browse
 
 - The database is constructed by crawling HTTPS websites over two weeks (September 2016).
 - The full PCAP files are given with full HTTPS payloads.
-- The scanning process was automated using a local machine and a pre-configured remote proxy to dump all packets with port   
-  number 443 (HTTPS port).
 - The Google Chrome pcap files include 250,185 HTTPS flows related to 7977 services/websites.
 - The Firefox pcap files include 237,127 HTTPS flow related to 7322 services/websites.
 - pkt2flow (https://github.com/caesar0301/pkt2flow) tool can be used to extract flows from PCAP files.
